@@ -45,7 +45,7 @@ def filtering(paper):
             else:
                 pass
 
-    # There're some stocks that didn't send their VPA and LPA, so let's skip those ones.
+    # There are some stocks that didn't send their VPA and LPA, so let's skip those ones.
     except ValueError:
         pass
 
